@@ -1,0 +1,22 @@
+{
+  "name": "litter-cycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizfan/Litter-Cycle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizfan/Litter-Cycle/issues"
+  },
+  "homepage": "https://github.com/Rizfan/Litter-Cycle#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
