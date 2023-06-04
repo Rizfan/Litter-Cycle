@@ -14,8 +14,8 @@
         <!-- hero -->
         <section id="hero" class="w-full h-screen bg-[#1E455A] flex items-center justify-center flex-col">
             <!-- nav -->
-            <header class="w-full h-16 flex justify-center items-center absolute top-4">
-                <nav class="w-10/12 h-full flex items-center justify-between text-white">
+            <header class="w-full h-16 lg:flex hidden justify-center items-center absolute top-4">
+                <nav class="lg:w-10/12 w-11/12 h-full flex items-center justify-between text-white">
                     <h1 class="text-2xl font-semibold">[Litter Cycle Exchange]</h1>
                     <ul class="flex items-center">
                         <li class="ml-8">
@@ -42,19 +42,20 @@
             <!-- end nav -->
 
             <!-- content -->
-            <div class="w-10/12 mx-auto mt-8 space-x-3 flex justify-center items-center">
-                <aside class="w-6/12">
+            <div
+                class="lg:lg:w-10/12 w-11/12 mx-auto lg:mt-8 mt-2 space-x-3 lg:space-y-0 space-y-6 flex flex-col lg:flex-row lg:text-left text-center justify-center items-center">
+                <aside class="lg:w-6/12 w-11/12">
                     <h1 class="text-4xl font-bold "><span class="text-[#32A142]">Litter</span>
                         <span class="text-[#8CC63E]">Cycle</span> <br>
                         <span class="text-[#FFBF11]">Exchange</span>
                     </h1>
-                    <p class="my-8 pr-8 text-white">Sebuah inovasi untuk menarik minat masyarakat dan
+                    <p class="my-8 lg:pr-8 text-white">Sebuah inovasi untuk menarik minat masyarakat dan
                         meningkatkan
                         kesadaran masyarakat untuk mengelola sampah.
                     </p>
                     <a href="#" class="text-white px-8 py-2 border-2 border-white rounded-full my-8">Get Started</a>
                 </aside>
-                <aside class="w-6/12 h-full">
+                <aside class="lg:w-6/12 w-11/12 h-full">
                     <span class="rounded bg-[#fffff] border w-full h-full "></span>
                 </aside>
             </div>
@@ -64,11 +65,11 @@
 
         <!-- jual sampah -->
         <section id="jual_sampah" class="w-full py-20 bg-white">
-            <h1 class="text-3xl w-10/12 mx-auto font-bold text-center max-w-[630px]">Jual Sampah Disini!
+            <h1 class="text-3xl lg:w-10/12 w-11/12 mx-auto font-bold text-center max-w-[630px]">Jual Sampah Disini!
             </h1>
 
             <!-- card list -->
-            <ul class="w-10/12 mx-auto grid grid-cols-4 mt-12 gap-4">
+            <ul class="lg:w-10/12 w-11/12 mx-auto grid lg:grid-cols-4 grid-cols-1 mt-12 gap-4">
                 <!-- card -->
                 <li
                     class="p-8 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex justify-between">
@@ -116,9 +117,9 @@
 
         <!-- About us -->
         <section id="aboutUs" class="w-full py-20 bg-[#1E455A] text-white">
-            <h1 class="text-3xl w-10/12 mx-auto font-bold text-left">Apa itu LitterCycle Exchange?
+            <h1 class="text-3xl lg:w-10/12 w-11/12 mx-auto font-bold text-left">Apa itu LitterCycle Exchange?
             </h1>
-            <p class="w-10/12 mx-auto mt-3 text-lg text-justify text-white/90">
+            <p class="lg:w-10/12 w-11/12 mx-auto mt-3 text-lg text-justify text-white/90">
                 LitterCycle Exchange merupakan tempat penjualan sampah yang bertujuan memudahkan masyarakat menjual
                 sampah anorganik yang mereka miliki ke Bank sampah. LitterCycle merupakan sebuah inovasi yang dibuat
                 untuk menarik minat sekaligus bertujuan untuk meningkatkan kesadaran masyarakat untuk mengolah sampah
@@ -129,17 +130,18 @@
 
         <!-- layanan -->
         <section id="Layanan" class="w-full py-20 bg-white">
-            <h1 class="text-3xl w-10/12 mx-auto font-bold text-center max-w-[630px]">Layanan yang kami sediakan
+            <h1 class="text-3xl lg:w-10/12 w-11/12 mx-auto font-bold text-center max-w-[630px]">Layanan yang kami
+                sediakan
             </h1>
 
             <!-- card list -->
-            <ul class="w-8/12 mx-auto grid grid-cols-2 mt-12 gap-6">
+            <ul class="w-8/12 mx-auto grid lg:grid-cols-2 grid-cols-1 mt-12 gap-6">
                 <!-- card -->
                 <li
-                    class="p-8 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex justify-between space-x-3">
-                    <span class="border-8 border-black bg-[#ddddd] w-4/12 items-center text-center"></span>
-                    <div class="w-8/12">
-                        <h3 class="font-semibold">Beli dan Jual Sampah</h3>
+                    class="lg:p-8 p-7 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex lg:flex-row flex-col lg:space-y-0 space-y-3 justify-between lg:space-x-3">
+                    <span class="border-8 border-black bg-[#ddddd] lg:w-4/12 w-full items-center text-center"></span>
+                    <div class="lg:w-8/12 w-full">
+                        <h3 class="font-semibold lg:text-left text-center">Beli dan Jual Sampah</h3>
                         <p class="text-black/70 text-justify">Beli sampah dengan deposit melalui semua bank lokal
                             Indonesia atau jual
                             sampah dengan mengkonversikannya menjadi Rupiah secara instan</p>
@@ -148,10 +150,10 @@
                 <!-- end card -->
                 <!-- card -->
                 <li
-                    class="p-8 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex justify-between space-x-3">
-                    <span class="border-8 border-black bg-[#ddddd] w-4/12 items-center text-center"></span>
-                    <div class="w-8/12">
-                        <h3 class="font-semibold">Biaya jual dan persentase penarikan 0%</h3>
+                    class="lg:p-8 p-7 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex lg:flex-row flex-col lg:space-y-0 space-y-3 justify-between lg:space-x-3">
+                    <span class="border-8 border-black bg-[#ddddd] lg:w-4/12 w-full items-center text-center"></span>
+                    <div class="lg:w-8/12 w-full">
+                        <h3 class="font-semibold lg:text-left text-center">Biaya jual dan persentase penarikan 0%</h3>
                         <p class="text-black/70 text-justify">Nikmati keuntungan yang lebih banyak dengan biaya jual dan
                             persentase penarikan mulai dari 0% di Indodax</p>
                     </div>
@@ -165,24 +167,25 @@
 
         <!-- unggulan -->
         <section id="unggulan" class="w-full py-20 bg-[#1E455A]">
-            <div class="w-10/12 flex justify-between mx-auto items-center space-x-3">
-                <div class="w-6/12 text-white">
-                    <h1 class="text-3xl font-bold text-left">Fitur Unggulan
+            <div class="lg:w-10/12 w-11/12 flex flex-col lg:flex-row justify-between mx-auto items-center space-x-3">
+                <div class="lg:w-6/12 w-full text-white">
+                    <h1 class="text-3xl font-bold text-center lg:text-left">Fitur Unggulan
                     </h1>
                     <p class="my-4">
                         Littercycle mengakomodasi kebutuhan kamu saat bertransaksi dengan fitur-fitur canggih.
                     </p>
-                    <span class="border-8 border-black bg-[#ddddd] w-3/12 items-center text-center my-2"></span>
+                    <span
+                        class="border-8 border-black bg-[#ddddd] w-full lg:w-3/12 items-center text-center my-2"></span>
                 </div>
-                <div class="w-6/12">
+                <div class="lg:w-6/12 w-full">
 
                     <!-- card list -->
                     <ul class="w-full mx-auto grid grid-cols-1 mt-12 gap-6">
                         <!-- card -->
                         <li
-                            class="p-8 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex justify-between bg-white space-x-4">
-                            <span class="border-8 border-black bg-[#ddddd]  w-4/12 items-center text-center"></span>
-                            <div class="w-8/12">
+                            class="lg:p-8 p-7 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex lg:flex-row flex-col lg:space-y-0 space-y-3 justify-between lg:space-x-3 bg-white">
+                            <span class="border-8 border-black bg-[#ddddd]  lg:w-4/12 items-center text-center"></span>
+                            <div class="lg:w-8/12 w-full">
                                 <h3 class="font-semibold">Kemudahan</h3>
                                 <p class="text-black/70 text-justify">Transaksi jual beli sampah diakses dengan mudah
                                     dalam satu akun lewat PC, tablet, maupun aplikasi smartphone kapan saja dan di mana
@@ -192,9 +195,9 @@
                         <!-- end card -->
                         <!-- card -->
                         <li
-                            class="p-8 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex justify-between bg-white space-x-4">
-                            <span class="border-8 border-black bg-[#ddddd]  w-4/12 items-center text-center"></span>
-                            <div class="w-8/12">
+                            class="lg:p-8 p-7 rounded-lg shadow-xl hover:shadow-2xl transition hover:duration-300 ease-in-out flex lg:flex-row flex-col lg:space-y-0 space-y-3 justify-between lg:space-x-3 bg-white">
+                            <span class="border-8 border-black bg-[#ddddd]  lg:w-4/12 items-center text-center"></span>
+                            <div class="lg:w-8/12 w-full">
                                 <h3 class="font-semibold">Layanan 24/7</h3>
                                 <p class="text-black/70 text-justify">Jangan ragu untuk mengontak kami lewat live chat,
                                     atau alamat email
@@ -208,6 +211,117 @@
                 </div>
             </div>
         </section>
+        <!-- end unggulan -->
+
+        <!-- kontak kami -->
+        <section id="kontak" class="w-full py-20 bg-white min-h-screen">
+
+            <h1 class="text-3xl lg:w-10/12 w-11/12 mx-auto font-bold text-center max-w-[630px]">Hubungi Kami
+            </h1>
+
+            <!-- container -->
+            <div
+                class="lg:w-10/12 w-11/12 mt-8 mx-auto justify-between items-center flex flex-col lg:flex-row lg:space-x-6">
+
+                <!-- Kiri -->
+                <div class="lg:w-6/12 w-full min-h-fit">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5514.825544654743!2d109.25057436452668!3d-7.433011312786707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea49d9f9885%3A0x62be0b6159700ec9!2sInstitut%20Teknologi%20Telkom%20Purwokerto!5e0!3m2!1sid!2sid!4v1685880743160!5m2!1sid!2sid"
+                        class="w-full" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- end kiri -->
+                <!-- kanan -->
+                <form action="#" class="lg:w-6/12 w-full">
+                    <ul>
+                        <li class="grid grid-cols-1 my-4">
+                            <label for="Nama" class="text-lg font-semibold">Nama</label>
+                            <input type="text" name="Nama" id="Nama" placeholder="Masukkan Nama"
+                                class="w-full mt-2 border p-2 rounded border-black">
+                        </li>
+                        <li class="grid grid-cols-1 my-4">
+                            <label for="Email" class="text-lg font-semibold">Email</label>
+                            <input type="email" name="Email" id="Email" placeholder="Masukkan Email"
+                                class="w-full mt-2 border p-2 rounded border-black">
+                        </li>
+                        <li class="grid grid-cols-1 my-4">
+                            <label for="Telephone" class="text-lg font-semibold">Telephone</label>
+                            <input type="text" name="Telephone" id="Telephone" placeholder="Masukkan Telephone"
+                                class="w-full mt-2 border p-2 rounded border-black">
+                        </li>
+                        <li class="grid grid-cols-1 my-4">
+                            <label for="Nama" class="text-lg font-semibold">Pesan</label>
+                            <textarea name="pesan" id="" cols="30" rows="6"
+                                class="border mt-2 w-full border-black rounded p-2"
+                                placeholder="Berikan Masukan Untuk Kami Disini!"></textarea>
+                        </li>
+                        <li class="text-right my-4">
+                            <input type="submit" value="Kirim"
+                                class="px-8 py-2 font-semibold rounded bg-[#1E455A] text-white">
+                        </li>
+                    </ul>
+                </form>
+
+            </div>
+        </section>
+        <!-- end kontak kami -->
+
+        <!-- footer -->
+        <footer class="w-full bg-[#1E455A] pt-20 text-white">
+            <div
+                class="flex flex-col lg:flex-row items-start justify-between mx-auto pb-8 lg:w-10/12 w-11/12 lg:text-left text-center lg:space-y-0 space-y-8">
+                <!-- Kiri -->
+                <div class="lg:w-6/12 w-full lg:mb-0 mb-4">
+                    <h1 class="text-3xl font-bold">[Litter Cycle Exchange]</h1>
+                    <p class="mt-4 lg:w-10/12 w-full">Sebuah inovasi untuk menarik minat masyarakat dan meningkatkan
+                        kesadaran masyarakat untuk mengelola sampah.</p>
+                </div>
+                <!-- end kiri -->
+                <!-- kanan -->
+                <div
+                    class="lg:w-5/12 w-full flex justify-between lg:space-x-20 lg:flex-row flex-col lg:space-y-0 space-y-6">
+                    <ul>
+                        <li class="font-semibold lg:border-b lg:no-underline underline text-lg lg:mb-6 mb-1">Sosial
+                            Media</li>
+                        <li class="mb-1"><a href="#">Instagram</a></li>
+                        <li class="mb-1"><a href="#">Twitter</a></li>
+                        <li class="mb-1"><a href="#">LinkedIn</a></li>
+                    </ul>
+                    <ul>
+                        <li class="font-semibold lg:border-b lg:no-underline underline text-lg lg:mb-6 mb-1">Quick Links
+                        </li>
+                        <li class="mb-1"><a href="#">Sign In</a></li>
+                        <li class="mb-1"><a href="#">Register</a></li>
+                    </ul>
+                    <ul>
+                        <li class="font-semibold lg:border-b lg:no-underline underline text-lg lg:mb-6 mb-1">Menu</li>
+                        <li class="mb-1"><a href="#">Beranda</a></li>
+                        <li class="mb-1"><a href="#">Harga</a></li>
+                        <li class="mb-1"><a href="#">Tentang Kami</a></li>
+                        <li class="mb-1"><a href="#">Layanan</a></li>
+                        <li class="mb-1"><a href="#">Fitur Unggulan</a></li>
+                        <li class="mb-1"><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <!-- end kanan -->
+            </div>
+
+            <!-- bawah -->
+            <div class="w-full bg-[#1E455A] border-t py-6 text-white">
+                <div
+                    class="flex lg:justify-between justify-center lg:mx-auto items-center lg:flex-row flex-col-reverse lg:w-10/12 w-11/12">
+                    <h4 class="text-sm">&copy; Copyright by Rizfan Herlaya 2023</h4>
+                    <ul class="flex space-x-4 flex-wrap justify-center lg:justify-end lg:mb-0 mb-4">
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Harga</a></li>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Layanan</a></li>
+                        <li><a href="#">Fitur Unggulan</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 
