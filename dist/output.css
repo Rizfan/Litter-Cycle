@@ -827,8 +827,8 @@ video {
   height: 4rem;
 }
 
-.h-2\/5 {
-  height: 40%;
+.h-4\/5 {
+  height: 80%;
 }
 
 .h-full {
@@ -837,14 +837,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-3\/5 {
-  height: 60%;
-}
-
-.h-4\/5 {
-  height: 80%;
 }
 
 .min-h-fit {
@@ -2659,14 +2651,14 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .lg\:mb-0 {
@@ -2765,11 +2757,6 @@ video {
 
   .lg\:border-b {
     border-bottom-width: 1px;
-  }
-
-  .lg\:bg-\[\#1E455A\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(30 69 90 / var(--tw-bg-opacity));
   }
 
   .lg\:bg-transparent {
